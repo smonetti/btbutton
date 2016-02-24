@@ -32,8 +32,9 @@
                             $el.removeClass('btn-link btn-default btn-primary btn-info btn-success btn-warning btn-danger').addClass(this.data.btntype);
                         }
 
-                        if (this.data.btnsize) {
-                            $el.removeClass('btn-xs btn-sm btn-lg').addClass(this.data.btnsize);
+                        $el.removeClass('btn-xs btn-sm btn-lg');
+			if (this.data.btnsize) {
+                            $el.addClass(this.data.btnsize);
                         }
 
                         if (this.data.href) {
