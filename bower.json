@@ -1,0 +1,21 @@
+{
+  "name": "btbutton",
+  "homepage": "https://github.com/smonetti/btbutton",
+  "authors": [
+    "Steven Monetti <hope-steven@will-fill-his.email>"
+  ],
+  "description": "CKEditor4 Bootstrap3 button widget",
+  "main": "plugin.js",
+  "keywords": [
+    "bootstrap",
+    "ckeditor"
+  ],
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
