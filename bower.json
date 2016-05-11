@@ -1,9 +1,6 @@
 {
-  "name": "btbutton",
-  "homepage": "https://github.com/smonetti/btbutton",
-  "authors": [
-    "Steven Monetti <hope-steven@will-fill-his.email>"
-  ],
+  "name": "btbuttons",
+  "homepage": "https://github.com/madalinignisca/btbutton",
   "description": "CKEditor4 Bootstrap3 button widget",
   "main": "plugin.js",
   "keywords": [
