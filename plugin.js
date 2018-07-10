@@ -1,7 +1,7 @@
 (function () {
 
     CKEDITOR.plugins.add('btbutton', {
-            lang: 'en,ru',
+            lang: 'en,ru,pt-br',
             requires: 'widget,dialog',
             icons: 'btbutton',
             init: function (editor) {
