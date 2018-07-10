@@ -6,7 +6,7 @@ CKEDITOR.plugins.setLang('btbutton', 'ru', {
     tabTarget: 'Цель',
     tabIcons: 'Иконки',
     buttonStyleLabel: 'Стиль',
-    buttonSizeLabel: 'Размер,
+    buttonSizeLabel: 'Размер',
     buttonTextLabel: 'Текст',
     buttonUrlLabel: 'Ссылка (URL)',
     buttonTargetLabel: 'Цель',
