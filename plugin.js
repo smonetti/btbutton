@@ -99,7 +99,8 @@
                         }
 
                         if (this.data.href) {
-                            $el.attr('href', this.data.href);
+                          $el.attr('href', this.data.href);
+                          this.element.$.removeAttribute('data-cke-saved-href');
                         }
 
                         if (this.data.target && this.data.target != '') {
