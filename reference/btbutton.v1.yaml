@@ -5,6 +5,11 @@ info:
   description: ''
 servers:
   - url: 'http://localhost:3000'
-paths: {}
+paths:
+  /user:
+    get:
+      summary: Test
+      tags: []
+      responses: {}
 components:
   schemas: {}
