@@ -27,7 +27,10 @@ CKEDITOR.dialog.add('btbutton', function (editor) {
                                     [lang.buttonSuccess, 'btn-success'],
                                     [lang.buttonInfo, 'btn-info'],
                                     [lang.buttonWarning, 'btn-warning'],
-                                    [lang.buttonDanger, 'btn-danger']
+                                    [lang.buttonDanger, 'btn-danger'],
+                                    [lang.buttonDark, 'btn-dark'],
+                                    [lang.buttonLight, 'btn-light'],
+
                                 ],
                                 setup: function (widget) {
                                     this.setValue(widget.data.btntype || 'btn-default');
@@ -41,7 +44,6 @@ CKEDITOR.dialog.add('btbutton', function (editor) {
                                 type: 'select',
                                 label: lang.buttonSizeLabel,
                                 items: [
-                                    [lang.buttonSizeExSmall, 'btn-xs'],
                                     [lang.buttonSizeSmall, 'btn-sm'],
                                     [lang.buttonSizeNormal, ''],
                                     [lang.buttonSizeLarge, 'btn-lg']
