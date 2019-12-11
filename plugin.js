@@ -38,11 +38,13 @@
                         this.data.btntype = "btn-warning";
                       } else if ($el.hasClass("btn-danger")) {
                         this.data.btntype = "btn-danger";
+                      } else if ($el.hasClass("btn-dark")) {
+                        this.data.btntype = "btn-dark";
+                      } else if ($el.hasClass("btn-light")) {
+                        this.data.btntype = "btn-light";
                       }
 
-                      if ($el.hasClass("btn-xs")) {
-                        this.data.btnsize = "btn-xs";
-                      } else if ($el.hasClass("btn-sm")) {
+                      if ($el.hasClass("btn-sm")) {
                         this.data.btnsize = "btn-sm";
                       } else if ($el.hasClass("btn-lg")) {
                         this.data.btnsize = "btn-lg";
