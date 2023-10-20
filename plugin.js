@@ -121,7 +121,7 @@
                         if (this.data.hasOwnProperty('bsiconright')) {
                             jQuery('.bs-icon-right', $el).remove();
                             if (this.data.bsiconright) {
-                                $el.append('<span style="word-spacing: -1em;" class="bs-icon-right glyphicon ' + this.data.bsiconright + '">&nbsp;</span>\n');
+                                $el.append('<span style="word-spacing: -1em;" class="bs-icon-right glyphicon ' + this.data.bsiconright + '">&nbsp;</span>');
                             }
                         }
 
@@ -135,7 +135,7 @@
                         if (this.data.hasOwnProperty('faiconright')) {
                             jQuery('.fa-icon-right', $el).remove();
                             if (this.data.faiconright) {
-                                $el.append('<i style="word-spacing: -1em;" class="fa fa-icon-right ' + this.data.faiconright + '">&nbsp;</i>\n');
+                                $el.append('<i style="word-spacing: -1em;" class="fa fa-icon-right ' + this.data.faiconright + '">&nbsp;</i>');
                             }
                         }
                     },
